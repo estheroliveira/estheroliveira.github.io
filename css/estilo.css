@@ -1,4 +1,4 @@
-body {
+	body {
     background-color: white;
 }
 h1 {
@@ -8,9 +8,9 @@ h1 {
 p {
     font-family: verdana;
     font-size: 20px;
-  
- 
-    ul {
+}
+
+ul {
 	text-align: center;
 }
 	
@@ -21,13 +21,14 @@ background-color: white;
 }
  
 table, td, tr {
-border: 2px solid grey
+border: 2px solid grey;
 }
  article {
 	padding: 50px
 	background-color: red;
 }
 	 
+  
  footer {
     padding: 1px;
     background-color: #000000;
@@ -63,4 +64,3 @@ color: White;
  background-color: Black;
  }
   
-
