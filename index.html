@@ -1,63 +1,149 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<link rel="stylesheet" href="css/estilo.css">
- </head>
-<body>   
- <title>Esther Oliveira</title>
-        <html>
-        <head>
+  <title>Esther Oliveira</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+  <style>
+  * {
+  font-family: 'Inconsolata', monospace;
+  }
+  
+  .navbar {
+  background-color: #66ff33;
+  margin: 0
+  padding: 0
+  color: black;
+  }
+  
+  .nav li:hover {
+  background-color: #fff;
+  }
+  
+ .container-fluid {
+    padding: 60px 50px;
+  }
 
-   <header>MEU SITE</header>
-	<li><a href="#sobre">SOBRE</a></li>
+  .margin {
+    margin-bottom: 45px;
+  }
+
+  img.quem {
+  width: 350px;
+  }
+  
+  .bg-1 {
+ background-color: #66ff33;
+ }
+ 
+ p.frase {
+ font-size: 20px;
+ }
+ 
+ .logo {
+ color: #66ff33;
+font-size: 30px; 
+padding-right: 5px;
+ }
+ 
+ img.portifolio {
+ width: 400px;
+ height: 300px;
+ }
+
+  </style>
+</head>
+<body>
+ <nav class="navbar navbar-default navbar-fixed-top">
+   <div class="container">
+     <div class="navbar-header">
+       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" style="background-color:white">
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+       </button>
+       <a class="navbar-brand" href="#home">Esther Luz</a>
+     </div>
+     <div class="collapse navbar-collapse" id="myNavbar">
+       <ul class="nav navbar-nav navbar-right">
+         <li><a href="#sobre">SOBRE</a></li>
          <li><a href="#portifolio">PORTIFOLIO</a></li>
          <li><a href="#habilidades">HABILIDADES</a></li>
          <li><a href="#contato">CONTATO</a></li>
          <li><a href="#contact">BLOG</a></li>
-		<nav><a href="https://www.facebook.com/profile.php?id=100008603475041">Facebook| </a></nav>
-<article>
-    <img src="https://scontent.fbsb9-1.fna.fbcdn.net/v/t1.0-1/p160x160/15380862_1620539394909494_8736269793666847787_n.jpg?oh=9382d1420cfe7d7c3f238500f57c70a2&oe=593A76A0" width='304' height='228'/>
-    <table>
-    <tr>
-	    <th>Nome:</th>
-	    <td><center>Esther Oliveira</center></td>
-	   </tr>
-	<tr> 
-		<th>Idade:</th>
-		<td><center>15</center></td>
-		 </tr>
-	<tr> 
-		<th>Nascida em:</th>
-		<td><center>Montanha</center></td>
-	   
-	   </table> 
-    <center><p>"A mente que se abre a uma nova ideia jamais voltará ao seu tamnho original" (Albert Eistein)</p></center>
-	    </article>
-		
-	<p class="a">.</p>
+       </ul>
+     </div>
+   </div>
+ </nav>
+ <div class="container-fluid text-center bg-1">
+ <h2 class="margin">Quem sou eu?</h2>
+ <img class="quem img-thumbnail margin" src="https://scontent.fbsb9-1.fna.fbcdn.net/v/t1.0-9/18198237_1672623079701125_7641102050098292347_n.jpg?oh=3202e1f5d5a8a640d3de65d602bcab03&oe=59D49099">
+ <p class="frase">"A mente que se abre a uma nova ideia jamais voltará ao seu tamanho original"</p>
+ </div>
+<div class="container-fluid bg-2">
+<h2 class="margin">INFORMAÇÕES GERAIS</h2>
+<div class="col-sm-4">
+<p class="frase"><span class="glyphicon glyphicon-check logo"></span><b>Nome: </b>Esther Luz</p>
+<p class="frase"><span class="glyphicon glyphicon-time logo"></span><b>Idade: </b>15 anos</p>
+<p class="frase"><span class="glyphicon glyphicon-map-marker logo"></span><b>Nascida em: </b>Montanha</p>
+<p class="frase"><span class=" glyphicon glyphicon-lock logo"></span> <b>Escola: </b>IFES Campus Serra</p>
+</div>
+<div class="col-sm-8">
+<p class="frase">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lacinia nibh non lectus aliquam semper. Cras at congue felis, sed suscipit risus. Morbi non lorem lobortis leo porttitor dapibus ac id lorem. Nulla facilisi. Duis aliquet vitae velit in feugiat. Maecenas et interdum nisl. Nam molestie dignissim massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec turpis facilisis, malesuada ante ut, egestas lacus. Praesent tempus tempus faucibus. Donec tristique quam arcu, eget rutrum mauris suscipit ac. Morbi velit nisl, faucibus nec aliquam ac, suscipit vitae libero. Sed lacinia purus purus, sed aliquet odio tristique eget.</p>
+</div>
+</div>
+<div class="container-fluid text-center bg-3">
+<h2>PORTIFOLIO</h2>
+ <p class="frase margin">
+     Um pouco de mim
+   </p>
+   <div class="row text-center">
+   <div class="col-sm-4">
+   <img class="portifolio" src="https://scontent.fbsb9-1.fna.fbcdn.net/v/t1.0-9/18194729_1673654652931301_6862744265122942300_n.jpg?oh=c8fe21af853e46de335bc3cbdc224614&oe=59E17640">
+   </div>
+   <div class="col-sm-4">
+    <img class="portifolio" src="https://scontent.fbsb9-1.fna.fbcdn.net/v/t1.0-9/15268030_1619672588329508_3294956318675303612_n.jpg?oh=f6bef7ff01725c14cbd75eb78d58d8a2&oe=59D32CC3">
+   </div>
+   <div class="col-sm-4">
+    <img class="portifolio" src="https://scontent.fbsb9-1.fna.fbcdn.net/v/t1.0-9/19059040_1687568151539951_4530242185352377104_n.jpg?oh=3572209287c1623554c79fcb0d9803d7&oe=59E69817">
+   </div>
+   </div>
+</div>
+<div class="contrainer-fluid text-center bg-4">
+<h2>HABILIDADES<h2/>
+<div class="col-sm-2"></div> 
+<div class="col-sm-8"></div>
+<div class="panel-group" id="accordion">
+   <!--WEB-->
+<div class="panel panel-default">
+      <div class="panel-heading">
+        <center><h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">PROGRAMAÇÃO WEB</a>
+        </h4></center>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse in">
+        <div class="panel-body">
+		<ul class="list-group">
+    <li class="list-group-item">HTML</li><div class="progress">
+    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:25%">25%
+     
+    </div>
+	</div>
+	<li class="list-group-item">CSS</li><div class="progress">
+    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:20%">
+      20%
+    </div>
+	</div>
 
-<br/>
-<br/>
-<br/>
-<br/>
-    <center><iframe width="560" height="315" src="https://www.youtube.com/embed/kT9P7jLqdvw" frameborder="0" allowfullscreen></iframe></center>
-	<center><b><h1>informações pessoais</h1></b></center>
-	<header><b> hobbies :</b></header>
-    <ul>
-      <li>tirar foto</li>
-      <li> comer e dormir</li>
-    </ul>
-	<header><b> O que eu quero apender: </b></header>
-    <ul>
-      <li>libras</li>
-      <li>idiomas,inglês e espanhol</li>
-      <li> tocar violino</li>
- </ul>
-	 <footer><h3>Copyright © Esther Oliveira</h3></footer>
+
+
 
 
 </body>
 </html>
-
       
   
